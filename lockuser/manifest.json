@@ -1,0 +1,9 @@
+{
+  "domain": "lockuser",
+  "name": "Lock User",
+  "documentation": "https://github.com/permissionBRICK/home-assistant-block-user-switch",
+  "dependencies": [],
+  "codeowners": ["@permissionBRICK"],
+  "requirements": [],
+  "version": "0.1.0"
+}
