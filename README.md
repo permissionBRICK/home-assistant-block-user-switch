@@ -22,3 +22,5 @@ switch:
         unique_id: x98zx978z6xz9z6x96
 ```
 You can find the Unique User ID at the Top of the User Administration settings for that user, where you would also manually disable the user.
+
+The Switch State represents the User is_active State, so to lock the User turn the Switch off.
