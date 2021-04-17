@@ -17,5 +17,8 @@ switch:
       alexauser:
         name: Alexa User
         unique_id: 394578729384759384
+      wallpaneluser:
+        name: Wall UI Panel User
+        unique_id: x98zx978z6xz9z6x96
 ```
 You can find the Unique User ID at the Top of the User Administration settings for that user, where you would also manually disable the user.
