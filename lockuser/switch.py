@@ -50,7 +50,7 @@ class CustSwitch(SwitchEntity):
         self._name = name
         self._device_id = device_id
         self._state = state
-        self.entity_id = "switch.lockuser"
+        self.entity_id = "switch."+device_id
         self._hass = hass
         self._uid = uid
 
