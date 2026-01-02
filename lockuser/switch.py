@@ -78,12 +78,12 @@ class CustSwitch(SwitchEntity):
         """ Enable the user. """
         self._state = True
         user = await self._hass.auth.async_get_user(self._uid)
-        await self._hass.auth.async_update_user(user, is_active=True)
+        await self._hass.auth._store.async_activate_user(user)
         self.async_schedule_update_ha_state()
 
     async def async_turn_off(self, **kwargs):
         """ Disable the user. """
         self._state = False
         user = await self._hass.auth.async_get_user(self._uid)
-        await self._hass.auth.async_update_user(user, is_active=False)
+        await self._hass.auth._store.async_deactivate_user(user)
         self.async_schedule_update_ha_state()
