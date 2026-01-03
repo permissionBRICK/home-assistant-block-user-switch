@@ -3,6 +3,8 @@ Exposes the Home Assistant User API as a Custom Component Switch Entity, so you 
 
 The point of this is that if you want to prevent people from yelling into your Window and execute Alexa Home Assistant Commands, you can now use a separate Home Assistant User for linking with Alexa, and simply disable this user when you are not at Home, so any Alexa Requests during that time will experience an Authentication Failure, and Alexa will exclaim that she doesn't know what went wrong.
 
+**Note: If you're having issues with being logged out of devices after Locking a User since the latest update, update this custom integration to the latest version to fix it.**
+
 ## Installation
 
 Copy the `lockuser` folder into your `config/custom_components` directory.
